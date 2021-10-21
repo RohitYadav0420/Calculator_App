@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:backgroundTint="#2B3535"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:visibility="invisible"
+
+                app:srcCompat="@drawable/btn_0" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/btn_0" />
+
+            <ImageView
+                android:id="@+id/btn_ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_ac" />
+
+            <ImageView
+                android:id="@+id/btn_divide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_divide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+            android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+
+                app:srcCompat="@drawable/btn_7" />
+
+            <ImageView
+                android:id="@+id/btn_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_8" />
+
+            <ImageView
+                android:id="@+id/btn_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_9" />
+
+            <ImageView
+                android:id="@+id/btn_multiplication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_multiplication" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+
+                app:srcCompat="@drawable/btn_4" />
+
+            <ImageView
+                android:id="@+id/btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_5" />
+
+            <ImageView
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_6" />
+
+            <ImageView
+                android:id="@+id/btn_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_plus" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+
+                app:srcCompat="@drawable/btn_1" />
+
+            <ImageView
+                android:id="@+id/btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_2" />
+
+            <ImageView
+                android:id="@+id/btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_3" />
+
+            <ImageView
+                android:id="@+id/btn_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_minus" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/btn_0" />
+
+            <ImageView
+                android:id="@+id/btn_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_0" />
+
+            <ImageView
+                android:id="@+id/btn_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_dot" />
+
+            <ImageView
+                android:id="@+id/btn_equal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:foreground= "?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/btn_equal" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/Inputext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/outputText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
